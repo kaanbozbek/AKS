@@ -31,7 +31,13 @@ spec:
         ports:
         - containerPort: 9000
         - containerPort: 12201
-
+        volumeMounts:
+        - name: graylog-storage
+          mountPath: /usr/share/graylog/data
+      volumes:
+      - name: graylog-storage
+        persistentVolumeClaim:
+          claimName: graylog-pvc
 ---
 apiVersion: v1
 kind: Service
