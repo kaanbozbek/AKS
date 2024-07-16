@@ -2,13 +2,9 @@
 
 This repository provides the necessary Terraform scripts and Kubernetes manifests to deploy Graylog on Azure Kubernetes Service (AKS). 
 
-## Repository Structure
+## Structure
 
-- `main.tf`: The main Terraform configuration file that defines the resources for the AKS cluster.
-- `variables.tf`: The Terraform variables file that allows you to customize the deployment.
-- `outputs.tf`: The Terraform outputs file that provides the essential outputs after the deployment.
-
-
+![Resource Diagram](https://github.com/kaanbozbek/AKS/blob/main/images/all.png)
 
 ## Prerequisites
 
