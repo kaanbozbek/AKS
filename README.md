@@ -48,6 +48,7 @@ Note: I used hardcoded version of main.tf. However, you may use it with the vari
    
 First off all we need to deploy mongodb and elasticsearch then graylog. We can use helm or manually install with manifests yamls. We go by the second option as below.
 
+![App GW](https://github.com/kaanbozbek/AKS/blob/main/images/Pods2.png)
 ![App GW](https://github.com/kaanbozbek/AKS/blob/main/images/Pods.png)
 
 ```sh
@@ -56,5 +57,7 @@ kubectl apply -f mongo.yaml
 kubectl apply -f graylog-pv.yaml
 kubectl apply -f graylog-pvc.yaml
 kubectl apply -f graylog.yaml 
+
+
 
 
