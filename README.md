@@ -42,6 +42,8 @@ Before you begin, ensure you have the following installed on your local machine:
 ![Resource Diagram](https://github.com/kaanbozbek/AKS/blob/main/images/resources.png)
 ![App GW](https://github.com/kaanbozbek/AKS/blob/main/images/appgw.png)
 
+Note: I used hardcoded version of main.tf. However, you may use it with the variables.tf.
+
 2. **Graylog Deployment**
    
 First off all we need to deploy mongodb and elasticsearch then graylog. We can use helm or manually install with manifests yamls. We go by the second option as below.
