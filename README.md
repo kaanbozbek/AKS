@@ -46,7 +46,7 @@ Note: I used hardcoded version of main.tf. However, you may use it with the vari
 
 2. **Graylog Deployment**
    
-First off all we need to deploy mongodb and elasticsearch then graylog. We can use helm or manually install with manifests yamls. We go by the second option as below.
+First off all we need to deploy mongodb and elasticsearch then graylog. We can use helm or manually install with manifests yamls. I go by the second option as below. Also, I seperated 60Gi as PV for Graylog.
 
 ![App GW](https://github.com/kaanbozbek/AKS/blob/main/images/Pods2.png)
 ![App GW](https://github.com/kaanbozbek/AKS/blob/main/images/Pods.png)
